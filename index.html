@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <style>
         .material-symbols-outlined {
@@ -15,6 +18,13 @@
           'opsz' 48;
         }
 
+        .light-icon {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 500,
+          'GRAD' 0,
+          'opsz' 48;
+        }
 
     </style>
     <title>Document</title>
@@ -77,12 +87,16 @@
             <span class="material-symbols-outlined light-icon">
                 notifications_active
                 </span>
-                <span class="material-symbols-outlined">
-                    co_present
-                    </span>
-            <span>Palash</span>
+            <div class="profile-photo"></div>
+            <span><h3>Palash</h3></span>
         </div>
-        <div>Palash Malakar</div>
+        <div class="profile">
+            <div class="profile-photo"></div>
+            <div>
+                <p>Hi there,</p>
+                <h1>Palash Malakar(@palash)</h1>
+            </div>
+        </div>
         <div>
             <button>New</button>
             <button>Upload</button>
@@ -184,10 +198,34 @@
         </div>
         <h2>Trending</h2>
         <div class="trending">
-            somebody
-            again somebody
-            some random guy
-            no idea
+            <div class="profile">
+                <div class="profile-photo"></div>
+                <div>
+                    <h1>@Tegan</h1>
+                    <p>The Peace Builder</p>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profile-photo"></div>
+                <div>
+                    <h1>@Morgan</h1>
+                    <p>Supercool App</p>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profile-photo"></div>
+                <div>
+                    <h1>@Alex</h1>
+                    <p>Money Making App</p>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profile-photo"></div>
+                <div>
+                    <h1>@Sireesha</h1>
+                    <p>Cool Project</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
